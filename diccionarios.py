@@ -44,3 +44,4 @@ for elemento in my_dict.values(): #
 
 for key, value in my_dict.items():
     print(f"[{key}]: {value}")
+# Para verificar una clave en un diccionario es con la palabra 'in'
