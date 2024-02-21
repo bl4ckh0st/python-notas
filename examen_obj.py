@@ -17,4 +17,24 @@ class Persona(): #
     def saludo(self):
         print (f"Su nombre es {self.nombre} y tiene {self.edad} primaveras")
 persona = Persona(nombre, edad)
-persona.saludo() # llamamos a una instancia llamada persona
+persona.saludo() # llamamos a una instancia llamada Persona
+
+#-----Metodos de clase----
+num_str = input("Introduzca un numero para saber si es un numero par o impar")
+num = int(num_str)
+
+class Calculadora:
+    #  @@staticmethod
+    def division(num):
+       
+        if num % 2 == 0:
+            print (f"El numero {num} es par")
+        else:
+            print (f"El numero {num} es impar")
+Calculadora.division(num)
+
+
+
+
+
+
